@@ -1,0 +1,26 @@
+.user-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .user {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: calc(50% - 10px);
+  }
+  
+  .user h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .user p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
